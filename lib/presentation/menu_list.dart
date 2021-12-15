@@ -11,11 +11,21 @@ class _MenuListState extends State<MenuList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: ListView(
-          children: [
-            Text("List 1"),
-          ],
+      body: SafeArea(
+        child: Container(
+          child: ListView(
+            scrollDirection: Axis.horizontal,
+            children: [
+              Text("List 1"),
+              Text("List 1"),
+              Text("List 1"),
+              Text("List 1"),
+              Text("List 1"),
+              Text("List 1"),
+              Text("List 1"),
+              Text("List 1"),
+            ],
+          ),
         ),
       ),
     );
