@@ -13,19 +13,9 @@ class _MenuListState extends State<MenuList> {
     return Scaffold(
       body: SafeArea(
         child: Container(
-          child: ListView(
-            scrollDirection: Axis.horizontal,
-            children: [
-              Text("List 1"),
-              Text("List 1"),
-              Text("List 1"),
-              Text("List 1"),
-              Text("List 1"),
-              Text("List 1"),
-              Text("List 1"),
-              Text("List 1"),
-            ],
-          ),
+          child: ListView.builder(
+            itemBuilder: Image.asset("assets/"),
+            )
         ),
       ),
     );
