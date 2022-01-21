@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tumbal/presentation/menu_list.dart';
+import 'package:tumbal/presentation/menu_list/menu_list_page.dart';
 
 void main() {
   runApp(const AppWidget());
@@ -12,7 +12,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       
-      home: MenuList(),
+      home: MenuListPage(),
       debugShowCheckedModeBanner: false,
     );
   }
